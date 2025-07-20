@@ -8,11 +8,8 @@ A simple RESTful To-Do List API built with Flask, Flask-SQLAlchemy, and MySQL, d
 -   [Technologies Used](#technologies-used)
 -   [Prerequisites](#prerequisites)
 -   [Getting Started](#getting-started)
--   [API Endpoints](#api-endpoints)
--   [Project Structure](#project-structure)
--   [Troubleshooting](#troubleshooting)
--   [Contributing](#contributing)
--   [License](#license)
+
+
 
 ## Features
 
