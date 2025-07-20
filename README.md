@@ -7,7 +7,7 @@ A simple RESTful To-Do List API built with Flask, Flask-SQLAlchemy, and MySQL, d
 -   [Features](#features)
 -   [Technologies Used](#technologies-used)
 -   [Prerequisites](#prerequisites)
--   [Getting Started](#getting-started)
+-   [Clone the Repository](#Clone-the-Repository)
 
 
 
@@ -38,11 +38,7 @@ Before you begin, ensure you have the following installed on your machine:
 * **Postman** or `curl` for testing the API endpoints.
     * [Download Postman](https://www.postman.com/downloads/)
 
-## Getting Started
-
-Follow these steps to get your FlaskTodoAPI-Docker project up and running.
-
-### 1. Clone the Repository
+##  Clone the Repository
 
 ```bash
 git clone [https://github.com/KeshavMukundan/FlaskTodoAPI-Docker.git](https://github.com/KeshavMukundan/FlaskTodoAPI-Docker.git)
