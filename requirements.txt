@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Werkzeug
+pymysql
+pyjwt
+cryptography
+

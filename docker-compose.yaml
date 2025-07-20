@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "3700:3700"
+    depends_on:
+      - db # Simple dependency, no healthcheck
+    environment:
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_NAME=todo
+      - SECRET_KEY=supersecretkey
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: todo
+    ports:
+      - "3308:3306" # Or 3307:3306 if it's consistently free for you
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
